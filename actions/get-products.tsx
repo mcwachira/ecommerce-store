@@ -29,3 +29,6 @@ const getProducts = async (query: Query): Promise<Product[]> => {
 };
 
 export default getProducts;
+
+
+
