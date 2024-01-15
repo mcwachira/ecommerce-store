@@ -21,6 +21,7 @@ const CartPage = () => {
         return null;
     }
 
+    console.log('cart length', cart.items.length)
     return (
         <div className="bg-white">
             <Container>

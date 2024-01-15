@@ -11,7 +11,7 @@ const NavbarActions = () => {
   const cart = useCart();
   const router = useRouter()
 
-  console.log(cart.items.length)
+
   useEffect(() => {
     setIsMounted(true);
   }, []);
@@ -20,6 +20,7 @@ const NavbarActions = () => {
     return null;
   }
 
+  console.log('cart', cart.items.length)
   return (
     <div className="ml-auto flex items-center gap-x-4">
       <Button className="flex items-center rounded-full bg-black px-4 py-2" onClick={() => router.push('/cart')}>
