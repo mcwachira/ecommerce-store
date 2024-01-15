@@ -15,14 +15,14 @@ const CartPage = () => {
 	const cart = useCart()
 	console.log(cart.items.length)
 
-// 	useEffect(() => {
+	useEffect(() => {
 
-// setIsMounted(false)
-// 	},[])
+setIsMounted(true)
+	},[])
 
-// 	if(!isMounted){
-// 		return null
-// 	}
+	if(!isMounted){
+		return null
+	}
 	  return (
     <div className="bg-white">
       <Container>
