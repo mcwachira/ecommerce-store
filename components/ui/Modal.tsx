@@ -1,24 +1,21 @@
-"use client";
-
-import { Dialog, Transition } from '@headlessui/react'
+import { Dialog, Transition } from '@headlessui/react';
+import React, { Fragment } from 'react'
 import { X } from 'lucide-react';
-import { Fragment } from 'react';
+import IconButton from './IconButton';
 
-import IconButton  from '@/components/ui/icon-button';
+interface ModalProps{
+	open:boolean;
+	onClose:() => void;
+	children:React.ReactNode
+}
 
-interface ModalProps {
-  open: boolean;
-  onClose: () => void;
-  children: React.ReactNode;
-};
 
-const Modal: React.FC<ModalProps> = ({
-  open,
-  onClose,
-  children
-}) => {
-  return (
-    <Transition show={open} appear as={Fragment}>
+
+const Modal = ({open, onClose, children}:ModalProps) => {
+
+
+	return (
+		   <Transition show={open} appear as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={onClose}>
         <div className="fixed inset-0 bg-black bg-opacity-50" />
 
