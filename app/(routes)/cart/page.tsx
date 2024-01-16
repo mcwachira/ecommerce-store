@@ -7,19 +7,19 @@ import CartItem from './components/CartItem'
 import Summary from './components/Summary'
 
 
-export const revalidate = 0;
+// export const revalidate = 0;
 
 const CartPage = () => {
-    const [isMounted, setIsMounted] = useState(false);
-    // const cart = useCart();
-
-    useEffect(() => {
-        setIsMounted(true);
-    }, []);
-
-    if (!isMounted) {
-        return null;
-    }
+    // const [isMounted, setIsMounted] = useState(false);
+    // // const cart = useCart();
+    //
+    // useEffect(() => {
+    //     setIsMounted(true);
+    // }, []);
+    //
+    // if (!isMounted) {
+    //     return null;
+    // }
 
     // console.log('cart length', cart && cart.items ? cart.items.length : undefined)
     return (
