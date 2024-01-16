@@ -31,7 +31,7 @@ const ProductCard = ({ data }: ProductCardProps) => {
 
     const onAddToCart:MouseEventHandler<HTMLButtonElement> = (event) => {
     event.stopPropagation()
-    // cart.addItem(data)
+    cart.addItem(data)
   }
 
   return (
