@@ -11,7 +11,7 @@ export const revalidate = 0;
 
 const CartPage = () => {
     const [isMounted, setIsMounted] = useState(false);
-    const cart = useCart();
+    // const cart = useCart();
 
     useEffect(() => {
         setIsMounted(true);
@@ -21,7 +21,7 @@ const CartPage = () => {
         return null;
     }
 
-    console.log('cart length', cart && cart.items ? cart.items.length : undefined)
+    // console.log('cart length', cart && cart.items ? cart.items.length : undefined)
     return (
         <div className="bg-white">
             {/*<Container>*/}
