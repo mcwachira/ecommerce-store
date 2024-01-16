@@ -15,12 +15,12 @@ interface ProductPageProps {
 const ProductPage = async ({ params }: ProductPageProps) => {
   const product = await getProduct(params.productId);
 
-  console.log(product.category.id);
+  // console.log(product.category.id);
   //recommended products
   const suggestedProducts = await getProducts({
     categoryId: product?.category?.id,
   });
-  console.log(suggestedProducts);
+  // console.log(suggestedProducts);
 
   return (
     <div className="bg-white">

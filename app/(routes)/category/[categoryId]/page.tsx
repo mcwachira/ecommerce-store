@@ -23,7 +23,7 @@ interface CategoryPageProps {
 }
 
 const CategoryPage = async({params, searchParams}:CategoryPageProps) => {
-	console.log(params.categoryId)
+	// console.log(params.categoryId)
 
   const products = await getProducts({ 
     categoryId: params.categoryId,
@@ -35,7 +35,7 @@ const CategoryPage = async({params, searchParams}:CategoryPageProps) => {
   const category = await getCategory(params.categoryId);
 
 
-console.log(products)
+// console.log(products)
 	return (
 		 <div className="bg-white">
       <Container>

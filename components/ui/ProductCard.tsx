@@ -14,7 +14,7 @@ interface ProductCardProps {
 }
 
 const ProductCard = ({ data }: ProductCardProps) => {
-  console.log(data);
+  // console.log(data);
 
   const router = useRouter();
   const cart = useCart()
@@ -31,7 +31,7 @@ const ProductCard = ({ data }: ProductCardProps) => {
 
     const onAddToCart:MouseEventHandler<HTMLButtonElement> = (event) => {
     event.stopPropagation()
-    cart.addItem(data)
+    // cart.addItem(data)
   }
 
   return (
