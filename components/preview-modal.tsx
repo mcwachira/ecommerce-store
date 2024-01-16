@@ -2,10 +2,8 @@
 
 import usePreviewModal from "@/hooks/use-preview-modal";
 import Gallery from "@/components/gallery";
-import Modal from "./ui/Modal";
-import Info from "./Info";
-
-
+import Info from "@/components/info";
+import Modal from "@/components/ui/modal";
 
 
 const PreviewModal = () => {
@@ -17,7 +15,7 @@ const PreviewModal = () => {
   }
 
   return ( 
-   <Modal 
+    <Modal 
       open={previewModal.isOpen} 
       onClose={previewModal.onClose}
     >
