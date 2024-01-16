@@ -22,6 +22,9 @@ const ProductPage = async ({ params }: ProductPageProps) => {
   });
   // console.log(suggestedProducts);
 
+    if (!product) {
+        return null;
+    }
   return (
     <div className="bg-white">
       <Container>
