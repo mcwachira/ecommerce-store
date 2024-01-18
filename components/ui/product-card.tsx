@@ -6,7 +6,7 @@ import { Expand, ShoppingCart } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 import Currency  from "@/components/ui/currency";
-import IconButton from "@/components/ui/icon-button";
+import IconButton  from "@/components/ui/icon-button";
 import usePreviewModal from "@/hooks/use-preview-modal";
 import useCart from "@/hooks/use-cart";
 import { Product } from "@/types";

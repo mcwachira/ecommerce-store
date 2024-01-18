@@ -4,7 +4,7 @@ import Billboard from '@/components/ui/billboard';
 import ProductCard from '@/components/ui/product-card';
 import NoResults from '@/components/ui/no-results';
 
-import getProducts from '@/actions/get-products';
+import getProducts from "@/actions/get-products";
 import getCategory from '@/actions/get-category';
 import getSizes from '@/actions/get-sizes';
 import getColors from '@/actions/get-colors';
