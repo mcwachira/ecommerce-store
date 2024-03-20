@@ -1,4 +1,4 @@
-# Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, Postgress
+# Full Stack E-Commerce + Dashboard & CMS: Next.js 13 App Router, React, Tailwind, Prisma, Postgress.
 
 ## Table of contents
 
@@ -50,9 +50,10 @@ Users should be able to:
 
 
 
+https://github.com/mcwachira/ecommerce-admin-2.0
 
 
-## MAKE SURE YOU HAVE [ADMIN](https://github.com/AntonioErdeljac/next13-ecommerce-admin/tree/master) SETUP FIRST!
+## MAKE SURE YOU HAVE [ADMIN](https://github.com/mcwachira/ecommerce-admin-2.0/tree/master) SETUP FIRST!
 
 For DEMO, use [Stripe Testing Cards](https://stripe.com/docs/testing)
 
